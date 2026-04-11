@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background-color: #f4f1ea; /* 复古纸张底色 */
+  font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px; /* 适配手机屏幕的宽度 */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 20px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.progress {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.question-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.option-btn:hover {
+  background: #eee;
+  border-color: #999;
+}
+
+/* 报告单样式 */
+.medical-report {
+  background: white;
+  padding: 30px 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px white, inset 0 0 0 3px #333;
+}
+
+.report-header {
+  border-bottom: 2px dashed #999;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.report-header h1 {
+  font-size: 24px;
+  margin: 0 0 5px 0;
+}
+
+.result-name {
+  font-size: 22px;
+  color: #b30000; /* 盖章的红色感 */
+  text-align: center;
+}
+
+.result-desc {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.example-box {
+  background: #f9f9f9;
+  border-left: 4px solid #333;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.report-footer {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+
+.save-btn {
+  width: 100%;
+  background: #333;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
