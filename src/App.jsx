@@ -80,7 +80,7 @@ function App() {
               <div className="report-body">
                 <h2 className="result-name">{finalResult.name}</h2>
                 <div className="example-box">
-                  <strong></strong>{finalResult.example}
+                  <strong>典型病例：</strong>{finalResult.example}
                 </div>
                 <div className="analysis-box">
                   <strong>病理分析：</strong>
