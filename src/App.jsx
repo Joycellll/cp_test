@@ -75,11 +75,13 @@ function App() {
               <div className="report-header">
                 <h1>📋 临床诊断报告单</h1>
                 <p>检验科：赛博磕学实验室</p>
-               
+                
               </div>
               <div className="report-body">
                 <h2 className="result-name">{finalResult.name}</h2>
-                
+                <div className="example-box">
+                  <strong></strong>{finalResult.example}
+                </div>
                 <div className="analysis-box">
                   <strong>病理分析：</strong>
                   <p className="result-desc">{finalResult.desc}</p>
