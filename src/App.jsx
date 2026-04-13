@@ -75,24 +75,19 @@ function App() {
               <div className="report-header">
                 <h1>📋 临床诊断报告单</h1>
                 <p>检验科：赛博磕学实验室</p>
-                <div className="patient-info">诊断维度：I-P-O-N 四轴扫描</div>
+               
               </div>
               <div className="report-body">
                 <h2 className="result-name">{finalResult.name}</h2>
-                <div className="example-box">
-                  <strong>典型病例：</strong>{finalResult.example}
-                </div>
+                
                 <div className="analysis-box">
                   <strong>病理分析：</strong>
                   <p className="result-desc">{finalResult.desc}</p>
                 </div>
-                <div className="prognosis-box">
-                  <strong>主治医师医嘱：</strong>
-                  <p className="prognosis-text">{finalResult.prognosis}</p>
-                </div>
+              
               </div>
               <div className="report-footer">
-                <p>※ 浙江大学医学院 · 赛博病理科监制 ※</p>
+                <p>※ 赛博病理科监制 ※</p>
               </div>
             </div>
           )}
